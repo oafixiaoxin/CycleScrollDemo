@@ -15,6 +15,13 @@
 		520460F91589E73700A5A390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520460F81589E73700A5A390 /* AppDelegate.m */; };
 		520460FC1589E73700A5A390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520460FB1589E73700A5A390 /* ViewController.m */; };
 		520460FF1589E73700A5A390 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520460FD1589E73700A5A390 /* ViewController.xib */; };
+		520461081589E75500A5A390 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520461071589E75500A5A390 /* CycleScrollView.m */; };
+		520461181589ECD700A5A390 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520461141589ECD700A5A390 /* 0.jpg */; };
+		520461191589ECD700A5A390 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520461151589ECD700A5A390 /* 1.jpg */; };
+		5204611A1589ECD700A5A390 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520461161589ECD700A5A390 /* 2.jpg */; };
+		5204611B1589ECD700A5A390 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520461171589ECD700A5A390 /* 3.jpg */; };
+		52046122158A040300A5A390 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52046120158A040300A5A390 /* icon.png */; };
+		52046123158A040300A5A390 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52046121158A040300A5A390 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,23 @@
 		520460E81589E73700A5A390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		520460EA1589E73700A5A390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		520460EC1589E73700A5A390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		520460F01589E73700A5A390 /* CycleScrollDemo-Info.plist */ = {isa = PBXFileReference; path = "CycleScrollDemo-Info.plist"; sourceTree = "<group>"; };
+		520460F01589E73700A5A390 /* CycleScrollDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CycleScrollDemo-Info.plist"; sourceTree = "<group>"; };
 		520460F21589E73700A5A390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520460F41589E73700A5A390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		520460F61589E73700A5A390 /* CycleScrollDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CycleScrollDemo-Prefix.pch"; sourceTree = "<group>"; };
-		520460F71589E73700A5A390 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		520460F61589E73700A5A390 /* CycleScrollDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CycleScrollDemo-Prefix.pch"; sourceTree = "<group>"; };
+		520460F71589E73700A5A390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		520460F81589E73700A5A390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		520460FA1589E73700A5A390 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		520460FA1589E73700A5A390 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		520460FB1589E73700A5A390 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		520460FE1589E73700A5A390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		520461061589E75500A5A390 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		520461071589E75500A5A390 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		520461141589ECD700A5A390 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		520461151589ECD700A5A390 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		520461161589ECD700A5A390 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		520461171589ECD700A5A390 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		52046120158A040300A5A390 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		52046121158A040300A5A390 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 		520460EE1589E73700A5A390 /* CycleScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				520461051589E74800A5A390 /* CycleScrollView */,
 				520460F71589E73700A5A390 /* AppDelegate.h */,
 				520460F81589E73700A5A390 /* AppDelegate.m */,
 				520460FA1589E73700A5A390 /* ViewController.h */,
@@ -90,12 +106,35 @@
 		520460EF1589E73700A5A390 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52046120158A040300A5A390 /* icon.png */,
+				52046121158A040300A5A390 /* icon@2x.png */,
+				520461091589EA6900A5A390 /* Images */,
 				520460F01589E73700A5A390 /* CycleScrollDemo-Info.plist */,
 				520460F11589E73700A5A390 /* InfoPlist.strings */,
 				520460F41589E73700A5A390 /* main.m */,
 				520460F61589E73700A5A390 /* CycleScrollDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520461051589E74800A5A390 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				520461061589E75500A5A390 /* CycleScrollView.h */,
+				520461071589E75500A5A390 /* CycleScrollView.m */,
+			);
+			name = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		520461091589EA6900A5A390 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				520461141589ECD700A5A390 /* 0.jpg */,
+				520461151589ECD700A5A390 /* 1.jpg */,
+				520461161589ECD700A5A390 /* 2.jpg */,
+				520461171589ECD700A5A390 /* 3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +190,12 @@
 			files = (
 				520460F31589E73700A5A390 /* InfoPlist.strings in Resources */,
 				520460FF1589E73700A5A390 /* ViewController.xib in Resources */,
+				520461181589ECD700A5A390 /* 0.jpg in Resources */,
+				520461191589ECD700A5A390 /* 1.jpg in Resources */,
+				5204611A1589ECD700A5A390 /* 2.jpg in Resources */,
+				5204611B1589ECD700A5A390 /* 3.jpg in Resources */,
+				52046122158A040300A5A390 /* icon.png in Resources */,
+				52046123158A040300A5A390 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +209,7 @@
 				520460F51589E73700A5A390 /* main.m in Sources */,
 				520460F91589E73700A5A390 /* AppDelegate.m in Sources */,
 				520460FC1589E73700A5A390 /* ViewController.m in Sources */,
+				520461081589E75500A5A390 /* CycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,10 +281,12 @@
 		520461031589E73700A5A390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: YongYi Liao (PU3LNN4YAA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CycleScrollDemo/CycleScrollDemo-Prefix.pch";
 				INFOPLIST_FILE = "CycleScrollDemo/CycleScrollDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "975C1165-5CDD-4ACE-98D8-F2EECEDE9FC5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -246,10 +294,12 @@
 		520461041589E73700A5A390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: YongYi Liao (PU3LNN4YAA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CycleScrollDemo/CycleScrollDemo-Prefix.pch";
 				INFOPLIST_FILE = "CycleScrollDemo/CycleScrollDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "975C1165-5CDD-4ACE-98D8-F2EECEDE9FC5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -273,6 +323,7 @@
 				520461041589E73700A5A390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

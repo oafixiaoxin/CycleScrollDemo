@@ -26,8 +26,14 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackTranslucent;
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    UINavigationController *nav = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
+    nav.navigationBar.translucent = YES;
+    nav.navigationBar.barStyle = UIBarStyleBlack;
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
